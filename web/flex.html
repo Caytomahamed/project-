@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .flex-comtainer{
+            /* flex default is row */
+               display: flex;
+                /* flex wxad kadigi kartaa col
+               flex-direction: column;
+               is row */
+               flex-wrap: wrap;
+               /**/
+                /*wxii darbiga hay 
+               flex-wrap: wrap;
+               hos ugadagayasaa*/
+               /*wx wy flex direc+flex wrap 
+               flex-flow: row wrap;
+               */
+               /* wxah maa ukaysaa content righ ama left sida end start strech 
+               ay ku maamulaysaa  defoult wx wee flex start
+               justify-content: stretch;*/
+               /* wxah maa ukaysaa content up ama down sida end start strech 
+               ay ku maamulaysaa default waa strech
+               align-items:stretch;*/
+    /*wx man mulaysaaa hrisantalka 
+               align-content:flex-end;
+               height: 700px;*/
+        }
+        .main{
+            background-color: #995085;
+            border: 3px solid #272727;
+            border-radius: 10px;
+        }
+        .sindle-item{
+            width: 15%;
+            background-color: #f7941f;
+            border: 3px solid #272727;
+            border-radius: 10px;
+            color: #ffffff;
+            font-size: 2em;
+            padding: 20px;
+            margin: 10px;
+        }
+        .item-1{ 
+            order: ;
+            min-height: 50px;
+
+        }
+        .item-2{
+            min-height: 100px;
+            flex-grow: ;
+        }
+        .item-3{
+            min-height: 150px;
+            flex-shrink: ;
+        }
+        .item-4{
+            min-height: 200px;
+            /* kar niin ka koo baadflex-basis: 200px;*/
+            /* 5 flex-grow 0 flex-shrink 200px flex-bass flex: 5 0 2oopx;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="flex-comtainer">
+            <div class="sindle-item item-1"><img src="Imgactr/1.jpg"></div>
+            <div class="sindle-item item-2">boxe 2</div>
+            <div class="sindle-item item-3">boxe 3</div>
+            <div class="sindle-item item-4">boxe 4</div>
+        </div>
+
+    </div>
+</body>
+</html>

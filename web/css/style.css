@@ -1,0 +1,73 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-image: url(/img/W.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;;
+}
+.m
+{
+    background:black;
+    text-align: center;
+    height: 80px;
+}
+.m ul
+{
+    margin-top: 15px;
+    display: inline-flex;
+    color: white;
+    list-style: none;
+}
+.m ul li
+{
+    width:120px;
+    padding:15px;
+    margin:15[x];
+}
+.m ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.active,.m ul li:hover
+{
+    background: tomato;
+    border-radius: 3px;
+}
+.f
+{
+    float: right;
+    margin-top:15px ;
+    margin-right: 10px;
+}
+.s
+{
+    width: 100px;
+    border-radius: 3px;
+    background: tomato;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+.l
+{
+
+float: left;
+font-size: 40px;
+
+}
+img{
+    width: 120px;
+    height: 80px;
+    border-radius:50%;
+}
+.footer
+{
+    height: 100px;
+    background: black;
+    clear: both;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid lesson</title>
+    <style>
+        .main
+        {
+            display: grid;
+           /* grid-template-columns: 1fr 1fr 1fr;*/
+           grid-template-columns:repeat(3, 1fr);
+           grid-gap: 1em;
+           /*grid-auto-rows: 100px;*/
+           grid-auto-rows: minmax(100px, auto);
+        }
+        .main >div{
+            background: #eeeeee;
+            padding: 1em;
+        }
+        .main >div:nth-child(odd){
+           background: #dddddd;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        p{
+           top: 0px;
+            color: red;
+            grhk
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>ipsum dolor sit.</div>
+        <div>
+            
+           <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, animi excepturi 
+            dolores dolorem quis deserunt
+             modi nostrum aliquid assumenda rerum vitae, illum vero qui reprehenderit, provident reiciendis optio necessitatibus officiis 
+             mollitia. Consectetur delectus quos enim obcaecati dolor mollitia vero eveniet.</p> 
+            
+            </div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+    </div>
+</body>
+</html>
